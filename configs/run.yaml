@@ -5,37 +5,32 @@ data:
     - name: deepmind_math
       path: data/processed/deepmind_math/train.jsonl
       task_type: numeric
-      weight: 0.25
+      weight: 0.3244
 
     - name: bigmath
       path: data/processed/bigmath/train.jsonl
       task_type: numeric
-      weight: 0.30
+      weight: 0.2960
 
     - name: abduction
       path: data/processed/abduction/train.jsonl
       task_type: short_text
-      weight: 0.10
+      weight: 0.0295
 
     - name: svamp
       path: data/processed/svamp/train.jsonl
       task_type: numeric
-      weight: 0.05
-
-    - name: swamp
-      path: data/processed/swamp/train.jsonl
-      task_type: numeric
-      weight: 0.05
+      weight: 0.1146
 
     - name: arc_easy
       path: data/processed/arc_easy/train.jsonl
       task_type: mcq
-      weight: 0.15
+      weight: 0.1447
 
     - name: arc_hard
       path: data/processed/arc_hard/train.jsonl
       task_type: mcq
-      weight: 0.10
+      weight: 0.0909
 
   eval:
     - name: deepmind_math
